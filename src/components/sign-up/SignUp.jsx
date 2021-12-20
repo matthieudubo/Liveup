@@ -15,7 +15,7 @@ const SignUp = ({ setShowLogin }) => {
 
   useEffect(() => {
     if (mailToCheck) {
-      const url = `https://apiliveup.herokuapp.com/users/?mail=${mailToCheck}`;
+      const url = `https://wild-liveup.herokuapp.com/users/?mail=${mailToCheck}`;
       axios
         .get(url)
         .then((res) => res.data)
@@ -32,7 +32,7 @@ const SignUp = ({ setShowLogin }) => {
 
   const handleAddUser = () => {
     if (!errorMail) {
-      axios.post("https://apiliveup.herokuapp.com/users", {
+      axios.post("https://wild-liveup.herokuapp.com/users", {
         firstname: userFirstname,
         lastname: userLastname,
         mail: userMail,
