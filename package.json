@@ -2,7 +2,7 @@
   "name": "liveup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aurelienbrethes.github.io/Liveup",
+  "homepage": "https://matthieudubo.github.io/Liveup",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
